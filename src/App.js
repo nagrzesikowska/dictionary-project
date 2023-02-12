@@ -1,8 +1,9 @@
 import logo from "./she.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
+import React from "react";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -13,19 +14,9 @@ function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          Coded by Natalia Grzesikowska and {""}
-          <a
-            href="https://github.com/nagrzesikowska/dictionary-project"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            open-sourced on Github
-          </a>
+          <small>Coded by SheCodes</small>
         </footer>
       </div>
     </div>
   );
 }
-
-export default App;
