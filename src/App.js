@@ -14,7 +14,15 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+          Coded by Natalia Grzesikowska and {""}
+          <a
+            href="https://github.com/nagrzesikowska/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            open-sourced on Github
+          </a>
         </footer>
       </div>
     </div>
