@@ -7,6 +7,10 @@ body {
 a {
   color: green;
 }
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 .App-logo {
   max-width: 200px;
